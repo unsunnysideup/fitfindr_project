@@ -31,11 +31,6 @@ source .venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-Set your Groq API key in a `.env` file (get a free key at [console.groq.com](https://console.groq.com)):
-```
-GROQ_API_KEY=your_key_here
-```
-
 ## The Mock Listings Dataset
 
 `data/listings.json` contains 40 mock secondhand listings across categories (tops, bottoms, outerwear, shoes, accessories) and styles (vintage, y2k, grunge, cottagecore, streetwear, and more).
@@ -63,10 +58,6 @@ wardrobe = get_example_wardrobe()
 ```
 
 ## Tool Inventory
-
-Your README submission must document each tool's name, inputs, and return value. **These must exactly match your actual function signatures in `tools.py`.** Your documented interfaces will be checked against your actual function signatures in `tools.py` — if the parameter count or types contradict what's in the code, you may not receive full credit for that tool.
-
----
 
 ## Interaction Walkthrough
 
