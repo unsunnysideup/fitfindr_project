@@ -131,7 +131,7 @@ Planning Loop ──────────────────────
 ## AI Tool Plan
 
 **Milestone 3 — Individual tool implementations:**
-I'll give Claude my Tools specs, tool.py and architecture to diagram to implement search_listings() (I'll also feed it with the data loader, suggest_outfit() and create_fit_card() individually at a time. I'll test each of them against 3 queries before trusting it. 
+I'll give Claude my Tools specs, tool.py and architecture to diagram to implement search_listings() (I'll also feed it with the data loader), suggest_outfit() and create_fit_card() individually at a time. I'll test each of them against 3 queries before trusting it. 
 
 **Milestone 4 — Planning loop and state management:**
 I'll also give Claude my planning loop and state management specs, architecture and agent.py to implement run_agent and handle_query individually at a time. I'll test it by running python agent.py with 3 queries before proceeding. 
