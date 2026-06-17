@@ -135,6 +135,8 @@ For each tool, describe the specific failure mode you're handling and what the a
 
 ## A Complete Interaction (Step by Step)
 
+FitFindr needs to search for what the user wants through search_listings. Then based on the top result, FitFindr suggests an outfit with what the user have currently in their wardrobe. Then it creates a fit card based on the suggestion. If there's no listings, Fitfindr would tell the user that and does not proceed any further. But if there is a listing, then it does the three steps chronologically. 
+
 Write out what a full user interaction looks like from start to finish — tool call by tool call. Use a specific example query.
 
 **Example user query:** "I'm looking for a vintage graphic tee under $30. I mostly wear baggy jeans and chunky sneakers. What's out there and how would I style it?"
