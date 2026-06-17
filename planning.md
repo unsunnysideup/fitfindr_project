@@ -46,7 +46,7 @@ If the wardrobe is empty, LLM offers general styling advice for the item
 ### Tool 3: create_fit_card
 
 **What it does:**
-Creates a fit card that gives a caption to the outfit. But functionally, it serves as a guide to an empty or white-space outfit string. 
+Creates a fit card that gives a caption to the outfit. But functionally, it serves as a guard to an empty or white-space outfit string. 
 
 **Input parameters:**
 <!-- List each parameter, its type, and what it represents -->
