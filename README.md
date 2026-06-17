@@ -128,3 +128,11 @@ Instead of having to pick the most relevant piece from the top 3 in search_listi
 3. Build and test each tool individually before connecting them through your planning loop.
 
 Your implementation files go in this same directory. There's no required file structure for your agent code — organize it however makes sense for your design.
+
+---
+
+## AI USAGE
+1. I used Claude to help me implement search_listings() through my tools specs, architecture diagram, and to-do list from search_listings() comments. During testing, it was able to handle most cases but one where it was supposed to return []. I ended up changing the function to handle cases where parameters are similar to clothing keywords. 
+
+2. I also used Claude to help me implement create_fit_card() through my tools specs, architecture diagram, and to-do list from search_listings() comments. I adjusted the temperature of LLM since I was getting identical responses during testing. 
+
